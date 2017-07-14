@@ -23,11 +23,11 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('admin.admin-login');
+        return view('admin.admin-dashboard');
     }
-
+/*
     public function login()
     {
-        return true;
-    }
+        return "admin login form";
+    }*/
 }
